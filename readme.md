@@ -39,3 +39,21 @@ python Document_Orientation_Detection.py
 
 ## 5. 结果
 在仅考虑​​`0°`和​​`-90°`的场景下，在几篇文档中朝向识别准确率接近100%.
+
+## 效果
+原图
+<img src="./assets/test_image3.png" style="
+        max-width: 60%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    ">
+矫正之后的图
+<img src="./assets/test_image3_rotation.png" style="
+        max-height: 60%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    ">
