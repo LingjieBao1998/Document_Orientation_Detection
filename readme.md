@@ -109,7 +109,7 @@ python Document_Orientation_Detection.py
             <th style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;
-            ">`CV2`×</th>
+            ">矫正角度(`CV2`)×</th>
         </tr>
     </thead>
     <tbody>
