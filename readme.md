@@ -45,7 +45,7 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
     ">
-* 随后通过对所有的`polygo`和`bbox`所在的图片进行朝向识别（Document Orientation Detection），最后选择所有朝向的`众数`作为最后的识别结果
+* 随后使用doctr中的朝向识别模型对所有的`polygo`和`bbox`所在的图片进行朝向识别（Document Orientation Detection），最后选择所有朝向的`众数`作为最后的识别结果
 <img src="./assets/test_image3_anno.png" style="
         max-width: 60%;
         height: auto;
