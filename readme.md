@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [1. 介绍](#1-%E4%BB%8B%E7%BB%8D)
 - [2. 为什么选择本工具？​​](#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E6%9C%AC%E5%B7%A5%E5%85%B7%E2%80%8B%E2%80%8B)
@@ -23,7 +23,7 @@
 
 ## 2. 为什么选择本工具？​​
 ✅ ​​高频场景覆盖​​：
-解决80%以上的文档旋转问题（**0°/-90°**为主，**90°/180°**较少见）。
+解决80%以上的文档旋转问题（0°/-90°为主，90°/180°较少见）。
 对OCR、文档分类等下游任务足够鲁棒。
 
 
@@ -66,7 +66,7 @@ python Document_Orientation_Detection.py
 ```
 
 ## 5. 结果&效果展示
-在**仅考虑**​​`0°`和​​`-90°`的场景下，在几篇文档中（约500张）朝向识别准确率接近100%.
+在仅考虑​​`0°`和​​`-90°`的场景下，在几篇文档中（约500张）朝向识别准确率接近100%.
 
 ### 效果展示
 <table style="
@@ -106,6 +106,10 @@ python Document_Orientation_Detection.py
                 padding: 12px;
                 border-bottom: 1px solid #ddd;
             ">矫正角度(top-down)×</th>
+            <th style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">`CV2`×</th>
         </tr>
     </thead>
     <tbody>
@@ -170,6 +174,73 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+        </tr>
+        <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2_rotation_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2_rotation_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">
+                <img src="./assets/test_image2_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
         </tr>
         <tr>
             <td style="
@@ -231,6 +302,73 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+        </tr>
+        <tr>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">分子</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_rotation_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_rotation_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-87.25°</td>
         </tr>
         <tr>
             <td style="
@@ -289,6 +427,72 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+        </tr>
+        <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">分子+表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_rotation_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_rotation_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">180°</td>
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>

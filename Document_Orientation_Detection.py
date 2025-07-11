@@ -54,7 +54,6 @@ def vis_surya_detection(image, detection_result, class_results=None):
                 draw.polygon(pts, outline=(0, 0, 0), width=thickness)
         else:
             draw.polygon(pts, outline=color, width=thickness)
-            
     
     return temp_image
 
@@ -114,8 +113,7 @@ def correct_fn(image:Image.Image = None,
             print(page_idx, "bottom-up:", angle, "top-down:",pege_classes[0][0])
         else:
             print(page_idx, "bottom-up:", angle)
-    import ipdb
-    ipdb.set_trace()
+    
     if return_anno_image:
         temp_image = vis_surya_detection(image, predictions[0], class_results=classes[0])
         if rotate_image:
@@ -130,7 +128,7 @@ def correct_fn(image:Image.Image = None,
 
 if __name__ == "__main__":
     start = time.time()
-    image = Image.open("./assets/test_image3.png").convert("RGB")
+    image = Image.open("./assets/test_image_rotation.png").convert("RGB")
     det_predictor = DetectionPredictor()
     page_orientation_model = page_orientation_predictor(pretrained=True, disabled=False)
     page_orientation_model = page_orientation_model.to("cuda:0")
