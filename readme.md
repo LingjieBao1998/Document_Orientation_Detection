@@ -164,8 +164,12 @@ python Document_Orientation_Detection.py
                     transition: transform 0.3s ease;
                 ">
             </td>
-            <td>-90°</td>
-            <td>0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
         <tr>
             <td style="
@@ -221,8 +225,12 @@ python Document_Orientation_Detection.py
                     transition: transform 0.3s ease;
                 ">
             </td>
-            <td>-90°</td>
-            <td>0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
         <tr>
             <td style="
@@ -278,8 +286,12 @@ python Document_Orientation_Detection.py
                     transition: transform 0.3s ease;
                 ">
             </td>
-            <td>-90°</td>
-            <td>-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
         </tr>
     </tbody>
 </table>
