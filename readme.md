@@ -22,10 +22,24 @@
 ✅ ​​零配置开箱即用​​：
 无需训练数据或参数调优，自动适配多数文档类型。
 
-## 3. 方法
+## 3. 方法(流程)
 以`bottom-up`（自底向上）方法识别页面布局
 * 首先使用`surya-detection`检测出所有文本的`polygo`或者`bbox`
+<img src="./assets/test_image3_detection.png" style="
+        max-width: 60%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    ">
 * 随后通过对所有的`polygo`和`bbox`所在的图片进行朝向识别（Document Orientation Detection），最后选择所有朝向的`众数`作为最后的识别结果
+<img src="./assets/test_image3_anno.png" style="
+        max-width: 60%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    ">
 
 ## 3. installation
 需要`python>=3.10`
