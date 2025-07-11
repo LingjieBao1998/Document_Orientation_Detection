@@ -68,19 +68,216 @@ python Document_Orientation_Detection.py
 ## 5. 结果&效果展示
 在**仅考虑**​​`0°`和​​`-90°`的场景下，在几篇文档中（约500张）朝向识别准确率接近100%.
 
-原图
-<img src="./assets/test_image3.png" style="
-        max-width: 60%;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-    ">
-矫正之后的图
-<img src="./assets/test_image3_rotation.png" style="
-        max-height: 60%;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
-    ">
+### 效果展示
+<table style="
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+">
+    <thead>
+        <tr style="background-color: #f8f9fa;">
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">类别</th>
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">原图</th>
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">检测</th>
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">注释</th>
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">矫正后的图片</th>
+            <th style="
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            ">矫正角度</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image2_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">
+                <img src="./assets/test_image2_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td>-90°</td>
+        </tr>
+        <tr>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">分子</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image3_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td>-90°</td>
+        </tr>
+        <tr>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">分子+表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image_rotation.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td>-90°</td>
+        </tr>
+    </tbody>
+</table>

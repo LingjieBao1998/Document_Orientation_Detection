@@ -114,7 +114,8 @@ def correct_fn(image:Image.Image = None,
             print(page_idx, "bottom-up:", angle, "top-down:",pege_classes[0][0])
         else:
             print(page_idx, "bottom-up:", angle)
-    
+    import ipdb
+    ipdb.set_trace()
     if return_anno_image:
         temp_image = vis_surya_detection(image, predictions[0], class_results=classes[0])
         if rotate_image:
