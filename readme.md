@@ -80,34 +80,32 @@ python Document_Orientation_Detection.py
         <tr style="background-color: #f8f9fa;">
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
             ">类别</th>
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
             ">原图</th>
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
             ">检测</th>
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
             ">注释</th>
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
             ">矫正后的图片</th>
             <th style="
                 padding: 12px;
-                text-align: left;
                 border-bottom: 1px solid #ddd;
-            ">矫正角度</th>
+            ">矫正角度(bottom-up)√</th>
+            <th style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">矫正角度(top-down)×</th>
         </tr>
     </thead>
     <tbody>
@@ -167,6 +165,7 @@ python Document_Orientation_Detection.py
                 ">
             </td>
             <td>-90°</td>
+            <td>0°</td>
         </tr>
         <tr>
             <td style="
@@ -223,6 +222,7 @@ python Document_Orientation_Detection.py
                 ">
             </td>
             <td>-90°</td>
+            <td>0°</td>
         </tr>
         <tr>
             <td style="
@@ -278,6 +278,7 @@ python Document_Orientation_Detection.py
                     transition: transform 0.3s ease;
                 ">
             </td>
+            <td>-90°</td>
             <td>-90°</td>
         </tr>
     </tbody>
