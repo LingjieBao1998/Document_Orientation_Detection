@@ -172,6 +172,7 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;
+                font-weight: bold;
             ">分子</td>
             <td style="
                 padding: 12px;
