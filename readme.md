@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. 介绍](#1-%E4%BB%8B%E7%BB%8D)
+- [2. 为什么选择本工具？​​](#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E6%9C%AC%E5%B7%A5%E5%85%B7%E2%80%8B%E2%80%8B)
+- [3. 方法(流程)](#3-%E6%96%B9%E6%B3%95%E6%B5%81%E7%A8%8B)
+- [3. 安装](#3-%E5%AE%89%E8%A3%85)
+- [4. 运行](#4-%E8%BF%90%E8%A1%8C)
+- [5. 结果&效果展示](#5-%E7%BB%93%E6%9E%9C%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 ## 1. 介绍
 本仓库提供了一套高效的文档图像预处理工具，专注于解决 ​​文档页面角度矫正问题​​，尤其针对以下两种常见场景：
@@ -41,21 +54,20 @@
         transition: transform 0.3s ease;
     ">
 
-## 3. installation
+## 3. 安装
 需要`python>=3.10`
 ```cmd
 pip install -r requirement.text
 ```
 
-## 4. run
+## 4. 运行
 ```cmd
 python Document_Orientation_Detection.py
 ```
 
-## 5. 结果
-在仅考虑​​`0°`和​​`-90°`的场景下，在几篇文档中朝向识别准确率接近100%.
+## 5. 结果&效果展示
+在**仅考虑**​​`0°`和​​`-90°`的场景下，在几篇文档中（约500张）朝向识别准确率接近100%.
 
-## 效果
 原图
 <img src="./assets/test_image3.png" style="
         max-width: 60%;
