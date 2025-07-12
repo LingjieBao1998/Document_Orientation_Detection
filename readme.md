@@ -661,3 +661,5 @@ python Document_Orientation_Detection.py
         </tr>
     </tbody>
 </table>
+
+> `error`:pytesseract.pytesseract.TesseractError: (1, 'Estimating resolution as 113 Warning. Invalid resolution 0 dpi. Using 70 instead. Too few characters. Skipping this page Error during processing.')
