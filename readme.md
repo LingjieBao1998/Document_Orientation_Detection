@@ -6,8 +6,10 @@ Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 - [2. 为什么选择本工具？​​](#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9%E6%9C%AC%E5%B7%A5%E5%85%B7%E2%80%8B%E2%80%8B)
 - [3. 方法(流程)](#3-%E6%96%B9%E6%B3%95%E6%B5%81%E7%A8%8B)
 - [3. 安装](#3-%E5%AE%89%E8%A3%85)
+  - [tesseract（可选的，用于测试）](#tesseract%E5%8F%AF%E9%80%89%E7%9A%84%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95)
 - [4. 运行](#4-%E8%BF%90%E8%A1%8C)
 - [5. 结果&效果展示](#5-%E7%BB%93%E6%9E%9C%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA)
+  - [效果展示](#%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
