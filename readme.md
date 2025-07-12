@@ -59,6 +59,11 @@ Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 ```cmd
 pip install -r requirement.text
 ```
+### tesseract（可选的，用于测试）
+```cmd
+conda install conda-forge::tesseract
+conda install conda-forge::pytesseract ##用于提供接口
+```
 
 ## 4. 运行
 ```cmd
@@ -110,6 +115,10 @@ python Document_Orientation_Detection.py
                 padding: 12px;
                 border-bottom: 1px solid #ddd;
             ">矫正角度(`CV2`)×</th>
+            <th style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">矫正角度(`tesseract`)×</th>
         </tr>
     </thead>
     <tbody>
@@ -177,6 +186,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
         <td style="
                 padding: 12px;
@@ -241,6 +253,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">error</td>
         </tr>
         <td style="
                 padding: 12px;
@@ -305,6 +320,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
         <tr>
             <td style="
@@ -369,6 +387,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
         <tr>
             <td style="
@@ -433,6 +454,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-87.25°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
         </tr>
         <tr>
             <td style="
@@ -497,6 +521,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">180°</td>
         </tr>
         <td style="
                 padding: 12px;
@@ -560,6 +587,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">error</td>
         </tr>
         <td style="
                 padding: 12px;
@@ -623,6 +653,9 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
         </tr>
     </tbody>
 </table>
