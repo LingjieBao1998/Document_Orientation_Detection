@@ -242,6 +242,70 @@ python Document_Orientation_Detection.py
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
         </tr>
+        <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image4.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image4_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image4_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">
+                <img src="./assets/test_image4.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+        </tr>
         <tr>
             <td style="
                 padding: 12px;
@@ -493,6 +557,69 @@ python Document_Orientation_Detection.py
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">180°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">-90°</td>
+        </tr>
+        <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+                font-weight: bold;
+            ">分子+表格</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image5.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image5_detection.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image5_anno.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            ">
+                <img src="./assets/test_image5.png" style="
+                    max-width: 60%;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    transition: transform 0.3s ease;
+                ">
+            </td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
+            <td style="
+                padding: 12px;
+                border-bottom: 1px solid #ddd;">0°</td>
             <td style="
                 padding: 12px;
                 border-bottom: 1px solid #ddd;">-90°</td>
