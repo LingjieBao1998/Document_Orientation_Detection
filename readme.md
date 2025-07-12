@@ -662,4 +662,6 @@ python Document_Orientation_Detection.py
     </tbody>
 </table>
 
-> `error`:pytesseract.pytesseract.TesseractError: (1, 'Estimating resolution as 113 Warning. Invalid resolution 0 dpi. Using 70 instead. Too few characters. Skipping this page Error during processing.')
+> * `error`:pytesseract.pytesseract.TesseractError: (1, 'Estimating resolution as 113 Warning. Invalid resolution 0 dpi. Using 70 instead. Too few characters. Skipping this page Error during processing.')
+> * `bottom-up`:先进行单个字符朝向识别，随后通过大部分字符的朝向确定整个文档的朝向
+> * `top-down`:直接确定整个文档的朝向，而不进行单个字符的识别
