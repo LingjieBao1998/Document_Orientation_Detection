@@ -665,3 +665,24 @@ python Document_Orientation_Detection.py
 > * `error`:pytesseract.pytesseract.TesseractError: (1, 'Estimating resolution as 113 Warning. Invalid resolution 0 dpi. Using 70 instead. Too few characters. Skipping this page Error during processing.')
 > * `bottom-up`:先进行单个字符朝向识别，随后通过大部分字符的朝向确定整个文档的朝向
 > * `top-down`:直接确定整个文档的朝向，而不进行单个字符的识别
+
+## batch inference vs single page inference
+```bash
+time python Document_Orientation_Detection_batch_infer.py
+```
+
+```result
+real    0m24.556s
+user    1m4.402s
+sys     0m25.670s
+```
+
+```bash
+time Document_Orientation_Detection.py
+```
+
+```result
+real    0m33.049s
+user    1m12.260s
+sys     0m29.058s
+```
